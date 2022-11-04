@@ -1,0 +1,309 @@
+* {
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu' sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    background: #f8f8f8;
+    padding: 1.75rem;
+}
+
+.title {
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.more-articles {
+    color: #707070;
+    font-family: monospace;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: #143774;
+    margin: 0;
+}
+
+
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.01rem;
+    color: #1792d2;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover,
+nav a:focus {
+    cursor: pointer;
+    color: #1792d2;
+}
+
+nav ul {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+nav a {
+    color: #707070;
+    text-decoration: none;
+    font-weight: 700;
+    padding: .25em 1rem;
+}
+
+
+nav li {
+    padding-bottom: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.current-page {
+    border-bottom: 0.5px solid #707070;
+}
+
+.current-page:hover {
+    color: #707070;
+}
+
+.resources {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid #707070;;
+}
+
+.resources a {
+    color: #707070;
+    margin: 0;
+    
+}
+
+.resources p{
+        padding: 1rem;
+        font-size: 1.2rem;
+        background: whitesmoke;
+        color: #707070;
+}
+
+
+
+
+
+.world {
+    text-decoration: none;
+}
+
+.mainchad,
+.greenplantlamp {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.mainchad p,
+.greenplantlamp p {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0.25rem 0 0 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #707070;
+    text-align: left;
+}
+
+.dimsum {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+
+.hoverthis:hover {
+    cursor: pointer;
+}
+
+.greenplantlamp .hoverthis {
+    color: #1792d2;
+    text-align: center;
+}
+
+.img1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    object-fit: cover;
+}
+
+
+span {
+    color: #1792d2;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+hr {
+    margin: 0;
+}
+
+footer {
+    margin: 0;
+    padding: 1rem;
+    background: #143774;
+    color: whitesmoke;
+}
+
+
+
+.article-info p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    text-align: right;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #1792d2;
+    font-family: monospace;
+    font-style: italic;
+}
+
+@media screen and (max-width: 675px) {
+    .title {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav li {
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width:675px) {
+
+    .article1,
+    .article2,
+    .article3,
+    .article0 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .hoverleft {
+        padding-left: 1rem;
+        text-align: right;
+        margin: 0;
+    }
+
+}
+
+.article1,
+.article2,
+.article3,
+.article0 {
+    color: #707070;
+    padding: 0.5rem;
+    border: 1px solid #707070;
+    margin: 1rem 0 2rem 0;
+}
+
+.article1 p,
+.article2 p,
+.article3 p,
+.article0 p {
+    text-align: left;
+    padding: 1rem;
+    color: #707070;
+    font-size: 1.5rem;
+}
+
+.article1 .hoverthis,
+.article2 .hoverthis,
+.article3 .hoverthis,
+.article0 .hoverthis {
+    color: #1792d2;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.article-featured p {
+   font-size: 1.5rem;
+}
+
+.article-featured .hoverthis {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title li {
+    font-size: 1.2rem;
+}
+
+.pstuff {
+    padding: 1rem;
+}
+
+.resources2 {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid #707070;;
+}
+
+.resources2 a {
+    color: #707070;
+    margin: 0;
+    
+}
+
+.resources2 p{
+        padding: 1rem;
+        font-size: 1.2rem;
+        background: whitesmoke;
+        color: #707070;
+}
+
+
